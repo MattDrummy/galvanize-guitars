@@ -9,6 +9,11 @@ body  {
   padding: 20px 0;
 }
 
+/* Header */
+
+.navbar-brand  {
+  font: 2em 'Roboto', sans-serif
+}
 /* Main */
 
 main  {
@@ -35,6 +40,9 @@ main  {
     background: none;
     border: 0;
   }
+  .weekly-special {
+    border-bottom: 1px solid #f5770A;
+  }
 }
 
   .left  {
@@ -53,7 +61,7 @@ main  {
     width: 100%;
     padding: 20px;
     display: block;
-    border-top: 1px solid #F5770A;
+    /*border-top: 1px solid #F5770A;*/
   }
 
   .weekly-special > h3  {
@@ -83,6 +91,8 @@ footer {
   padding: 20px;
 }
 
+
+
 .panel  {
   align-self: flex-start;
   text-align: center;
@@ -104,9 +114,10 @@ footer {
 
 .strings {
   width: 66%;
+  box-sizing: border-box;
 }
 .strings > div  {
   width: 100%;
   border: 1px solid white;
-  margin: 20px;
+  margin: 20px 0px;
 }
