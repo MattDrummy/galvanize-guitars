@@ -1,10 +1,10 @@
-var $favorites = $('.favorites');
-var $selectedImage = $('.selected-img > img');
-var $unfavorite = $('button');
-var $specialImage = $('.special-img > img');
-var $specialInfo = $('.weekly-special');
-$favorites.click(changeImage);
-$unfavorite.click(unfavorite);
+$(document).ready(function() {
+  var $favorites = $('.favorites');
+  var $selectedImage = $('.selected-img > img');
+  var $unfavorite = $('button');
+  $favorites.click(changeImage);
+  $unfavorite.click(unfavorite);
+})
 
 function changeImage(event) {
   switch (this.children[0].innerText) {
